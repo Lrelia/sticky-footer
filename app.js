@@ -13,6 +13,15 @@ app.get('/sample-2', function (req, res) {
     res.sendfile('./sample-2.html');
 });
 
+app.get('/sample-3', function (req, res) {
+    res.sendfile('./sample-3.html');
+});
+
+app.get('/sample-4', function (req, res) {
+    res.sendfile('./sample-4.html');
+});
+
+
 app.use(express.static(__dirname + '/public'));
 
 var server = app.listen(80, function () {
