@@ -1,0 +1,14 @@
+{
+  "name": "xss-safe",
+  "version": "1.0.0",
+  "description": "xss跨站脚本攻击的研究",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lrelia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
